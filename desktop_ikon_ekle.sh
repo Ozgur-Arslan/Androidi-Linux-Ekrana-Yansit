@@ -8,6 +8,10 @@ echo "✅ Dosyalar kopyalanıyor..."
 cp tablete_baglan.sh $HOME/
 chmod +x $HOME/tablete_baglan.sh
 
+# Unistall dosyasını (/home/kullanıcı_adı/)dizinine kopyala çalıştırma izni ver.
+cp uninstall.sh $HOME/
+chmod +x $HOME/uninstall.sh
+
 # Masaüstüne kısayolu kopyala ve çalıtırşma izni ver.
 cp tablete_baglan.desktop $HOME/Masaüstü/
 chmod +x $HOME/Masaüstü/tablete_baglan.desktop
