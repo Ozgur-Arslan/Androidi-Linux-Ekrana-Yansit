@@ -23,7 +23,7 @@ Scrcpy Wi-Fi ile Android 7.0 Tablet Ekranını ve Kontrolünü Pardus'a Yansıtm
 
 5. Terminali (uç birim) Aç:
 
-   - cd /home/arslan/Masaüstü/kur_yansıt_v1.0/
+   - cd /home/kullanıcı_adın/Masaüstü/kur_yansıt_v1.0/
    - ./kur.sh komutu ile kuruluma başla ekrandaki yönergeleri takip et.
 
 
