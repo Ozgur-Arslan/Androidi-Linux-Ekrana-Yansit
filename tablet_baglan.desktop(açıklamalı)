@@ -1,0 +1,9 @@
+[Desktop Entry]                            			#Masaüstü kısayol
+Type=Application                           			#Bir uygulama başlatmak için
+Name=Tablete Bağlan(Wifi otomatik)         			#Masaüstünde görünecek kısayolun adı
+Comment=ADB + Scrcpy kurulumu ve WiFi ile başlatma 		#Uygulamanın kısa açıklaması
+Exec=sh -c '$HOME/tablete_baglan.sh' 				#Dosyayı çalıştırma komutu
+Icon=phone 							#Masaüstü kısayolun simgesi
+Terminal=false 							#Uçbirimin açık olması
+Categories=Utility;						#Uygulamanın menüde hangi kategori altında görüneceğini belirtir.
+								#Burada “Utility” yani “Yardımcı Araçlar” kategorisine giriyor.

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Tablete Bağlan(Wifi otomatik)
+Comment=ADB + Scrcpy kurulumu ve WiFi ile başlatma
+Exec=sh -c "$HOME/tablete_baglan.sh"
+Icon=phone
+Terminal=true
+Categories=Utility;
