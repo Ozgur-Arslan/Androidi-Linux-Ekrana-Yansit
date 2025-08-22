@@ -16,7 +16,15 @@ else
     echo "ℹ️ $HOME/tablete_baglan.sh bulunamadı."
 fi
 
-# 3. Masaüstünden tablete_baglan.desktop dosyası siliniyor
+# 3. Ev dizininden tablete_baglan.sh dosyası siliniyor
+if [ -f "$HOME/uninstall.sh" ]; then
+    echo "🗑 $HOME/uninstall.sh siliniyor..."
+    rm "$HOME/uninstall.sh"
+else
+    echo "ℹ️ $HOME/uninstall.sh bulunamadı."
+fi
+
+# 4. Masaüstünden tablete_baglan.desktop dosyası siliniyor
 if [ -f "$HOME/Masaüstü/tablete_baglan.desktop" ]; then
     echo "🗑 $HOME/Masaüstü/tablete_baglan.desktop siliniyor..."
     rm "$HOME/Masaüstü/tablete_baglan.desktop"
@@ -24,4 +32,4 @@ else
     echo "ℹ️ $HOME/Masaüstü/tablete_baglan.desktop bulunamadı."
 fi
 
-echo "✅ Kaldırma işlemi tamamlandı!"
+echo "✅ Program_kaldırma işlemi tamamlandı!"
