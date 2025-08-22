@@ -16,7 +16,7 @@ else
     echo "ℹ️ $HOME/tablete_baglan.sh bulunamadı."
 fi
 
-# 3. Ev dizininden tablete_baglan.sh dosyası siliniyor
+# 3. Ev dizininden uninstall.sh dosyası siliniyor
 if [ -f "$HOME/uninstall.sh" ]; then
     echo "🗑 $HOME/uninstall.sh siliniyor..."
     rm "$HOME/uninstall.sh"
