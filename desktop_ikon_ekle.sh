@@ -26,11 +26,11 @@ chmod +x $HOME/Masaüstü/tablete_baglan.desktop
   #done
 #' sh {} +
 
-find "$HOME" -type f \( -name "kur.sh" -o -name "desktop_ikon_ekle.sh" -o -name "tablete_baglan.desktop" -o -name "tablete_baglan.sh" \) | while read file; do
-    dir=$(dirname "$file")
-    if [ -f "$dir/kur.sh" ] && [ -f "$dir/desktop_ikon_ekle.sh" ] && [ -f "$dir/tablete_baglan.desktop" ] && [ -f "$dir/tablete_baglan.sh" ]; then
-        rm -rf "$dir"
-    fi
-done
+#find "$HOME" -type f \( -name "kur.sh" -o -name "desktop_ikon_ekle.sh" -o -name "tablete_baglan.desktop" -o -name "tablete_baglan.sh" \) | while read file; do
+ #   dir=$(dirname "$file")
+  #  if [ -f "$dir/kur.sh" ] && [ -f "$dir/desktop_ikon_ekle.sh" ] && [ -f "$dir/tablete_baglan.desktop" ] && [ -f "$dir/tablete_baglan.sh" ]; then
+   #     rm -rf "$dir"
+    #fi
+#done
 
 
